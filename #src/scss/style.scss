@@ -20,12 +20,53 @@ body{
     width: 100%;
 }
 
-span{
-    font-size: 20px;
-    @media (max-width:767px) {
-        font-size: 15px;
-    }
+.header {
+    width: 1080px;
+    margin: 0 auto;
 }
+.header {
+    width: 100%;
+}
+.component {
+    width: 1080px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+		&_log {
+		}
+
+		&_menu {
+
+           
+		}
+
+		&_list {
+            display: flex;
+           & li{
+            padding: 20px 14px;
+           }
+		}
+
+		&_child1 {
+		}
+
+		&_child2 {
+		}
+
+		&_child3 {
+		}
+}
+.contante {
+}
+
+
+
+
+
+
+
+
+
 div{
     font-size: 30px;
     @media (max-width:767px) {

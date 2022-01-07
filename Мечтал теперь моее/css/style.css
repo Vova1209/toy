@@ -91,8 +91,34 @@ body {
   width: 100%;
 }
 
-span {
-  font-size: 20px;
+.header {
+  width: 1080px;
+  margin: 0 auto;
+}
+
+.header {
+  width: 100%;
+}
+
+.component {
+  width: 1080px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.component_list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.component_list li {
+  padding: 20px 14px;
 }
 
 div {
@@ -100,10 +126,6 @@ div {
 }
 
 @media (max-width: 767px) {
-  span {
-    font-size: 15px;
-  }
-
   div {
     font-size: 20px;
   }
