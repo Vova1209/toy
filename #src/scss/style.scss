@@ -21,18 +21,17 @@ body{
 }
 
 .header {
-    width: 1080px;
-    margin: 0 auto;
+   
 }
-.header {
-    width: 100%;
-}
+
+
 .component {
-    width: 1080px;
+    max-width: 1080px;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
 		&_log {
+            padding: 10px 0px 0px 10px;
 		}
 
 		&_menu {
@@ -57,6 +56,27 @@ body{
 		}
 }
 .contante {
+}
+
+.container {
+    margin: 30px;
+    box-shadow: 2px 3px 5px 5px #000;
+}
+
+.block {
+    display: flex;
+    justify-content: space-around;
+    
+    &_img {
+        max-width: 500px;
+    }
+
+    &_text {
+        max-width: 500px;
+    }
+
+    &_button {
+    }
 }
 
 
